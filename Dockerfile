@@ -2,7 +2,7 @@
 FROM node:14
 
 # Copy package.json and package-lock.json to the working directory
-COPY src/package.json .
+COPY package.json .
 
 
 # Install dependencies
